@@ -1,7 +1,7 @@
 ---
 applications:
-- name: examen-parcial-broker
-  path: target/rabbitMQJava-0.0.1-SNAPSHOT.jar
+- name: examen_final_dycs_job_rfv
+  path: target/examen_final_dycs_job_rfv-0.1.jar
   memory: 1024M
   instances: 1
   no-route: true    
