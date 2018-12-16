@@ -1,0 +1,10 @@
+---
+applications:
+- name: examen-parcial-broker
+  path: target/rabbitMQJava-0.0.1-SNAPSHOT.jar
+  memory: 1024M
+  instances: 1
+  no-route: true    
+  health-check-type: process
+  services:
+  - rabbitTest
